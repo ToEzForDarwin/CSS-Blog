@@ -1,13 +1,21 @@
 <style>
-  button {
+  .request-button {
     background-color: black;
     color: white;
+    border: none;
     height: 50px;
     width: 135px;
     border: none;
+    cursor: pointer;
+    transition: opacity 0.15s;
   }
+
+   .request-button:hover {
+    opacity: 0.8; 
+  }
+
 </style>
 
 
 
-<button>Request now</button>
+<button class="request-button">Request now</button>
